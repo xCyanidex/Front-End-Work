@@ -18,33 +18,39 @@
     />
   </head>
   <body>
-    <section class="main bg-Grayishblue h-[100%] fixed w-[100%]">
+    <main
+      class="mx-auto bg-Grayishblue h-[100%] w-[100%] fixed flex justify-center items-center"
+    >
       <div
-        class="container mx-auto flex justify-center items-center h-[100%] w-[100%]"
+        class="container m-auto max-w-full max-h-full flex justify-center items-center"
       >
         <div
-          class="card-div p-5 bg-white rounded-3xl flex flex-col items-center justify-center"
+          class="container cardsize card-div p-5 bg-white rounded-3xl flex flex-col items-center justify-center"
         >
-          <div class="img-div w-56 mb-5">
+          <div class="img-div mb-5">
             <img
-              class="rounded-xl w-[100%] h-[100%]"
+              class="rounded-xl max-w-[100%] h-auto"
               src="starterfiles/qr-code-component-main/images/image-qr-code.png"
               alt=""
             />
           </div>
-          <div class="text-center w-[94%] mb-2">
-            <h2 class="font-bold font-fontoutfit text-Darkblue leading-6">
+          <div class="text-center w-[87%] mb-2">
+            <h1
+              class="font-bold text-xl font-fontoutfit text-Darkblue leading-6"
+            >
               Improve your front-end skills by building projects
-            </h2>
+            </h1>
           </div>
           <div class="text-center w-[88%]">
-            <p class="font-fontoutfit text-gray-500 leading-4 text-xs">
+            <p
+              class="font-fontoutfit font-bold text-gray-500 leading-4 text-xs"
+            >
               Scan the QR code to visit Frontend Mentor and take your coding
               skills to the next level
             </p>
           </div>
         </div>
       </div>
-    </section>
+    </main>
   </body>
 </html>

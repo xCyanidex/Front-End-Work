@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.html"],
+  content: ["./index.html"],
   theme: {
     extend: {
       colors: {
@@ -11,6 +11,9 @@ module.exports = {
       },
       fontFamily: {
         outfit: "'Outfit','sans-serif'",
+      },
+      screens: {
+        xsimeg: "(min-height :275px)",
       },
     },
   },

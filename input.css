@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .cardsize {
+    max-width: 320px;
+  }
+}
+
 html,
 body,
 div,
@@ -66,6 +72,9 @@ caption {
   background: transparent;
 }
 
-.card-div {
-  width: min-content;
+img {
+  max-width: 100%;
+  display: block;
+  width: 100%;
+  height: auto;
 }
